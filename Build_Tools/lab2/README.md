@@ -10,7 +10,6 @@ Clone the source code from GitHub:
 
 ```bash
 git clone https://github.com/Ibrahim-Adel15/build2.git
-cd build2
 ```
 ![Repository Cloned](https://github.com/MennaKhalill/iVolve-training/blob/main/Build_Tools/lab2/screanshots/clone.png))
 
@@ -19,6 +18,7 @@ cd build2
 Execute the unit tests for the project:
 
 ```bash
+cd build2
 mvn test
 ```
 ![unit_test](https://github.com/MennaKhalill/iVolve-training/blob/main/Build_Tools/lab2/screanshots/test.png)
