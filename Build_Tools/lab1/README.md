@@ -47,7 +47,7 @@ java -jar build/libs/ivolve-app.jar
 
 The full workflow of using Gradle in this project:
 
-Clone the repository from GitHub.
-Run unit tests to verify functionality.
-Build the JAR artifact with Gradle.
-Run the application using the Java runtime.
+- Clone the repository from GitHub.
+- Run unit tests to verify functionality.
+- Build the JAR artifact with Gradle.
+- Run the application using the Java runtime.
