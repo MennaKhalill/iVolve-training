@@ -45,7 +45,7 @@ java -jar build/libs/ivolve-app.jar
 
 ## Summary
 
-The full workflow of using Gradle in this Lab 1 folder:
+The full workflow of using Gradle in this project:
 
 Clone the repository from GitHub.
 Run unit tests to verify functionality.
