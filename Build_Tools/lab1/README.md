@@ -10,7 +10,6 @@ Clone the source code from GitHub:
 
 ```bash
 git clone  https://github.com/Ibrahim-Adel15/build1.git
-cd build1
 ```
 ![Repository Cloned](https://github.com/MennaKhalill/iVolve-training/blob/main/Build_Tools/lab1/screenshots/clone.png)
 
@@ -19,6 +18,7 @@ cd build1
 Execute the unit tests for the project:
 
 ```bash
+cd build1
 gradle test
 ```
 ![unit_test](https://github.com/MennaKhalill/iVolve-training/blob/main/Build_Tools/lab1/screenshots/test.png)
