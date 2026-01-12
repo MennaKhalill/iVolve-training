@@ -18,7 +18,9 @@ cd Docker-1
 ## Step 2: Write the Dockerfile
 
 Create a Dockerfile in the project folder:
-
+```bash
+vim Dockerfile
+```
 ```dockerfile
 FROM maven:3-eclipse-temurin-17-alpine
 WORKDIR /app
