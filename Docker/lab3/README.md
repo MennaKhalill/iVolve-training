@@ -13,7 +13,7 @@ Clone the source code from GitHub:
 git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 cd Docker-1
 ```
-![Repository Cloned](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/screenshots/clone.png)
+![Repository Cloned](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/clone.png)
 
 ## Step 2: Write the Dockerfile
 
@@ -37,7 +37,7 @@ Build the Docker image named app1:
 ```bash
 docker build -t app1 .
 ```
-![Build](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/screenshots/build_image.png)
+![Build](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/build_image.png)
 
 ## Step 4: Run the Container
 
@@ -46,7 +46,7 @@ Run a container named container1 from the image app1 and map port 8080:
 ```bash
 docker container run -d --name container1 -p 8080:8080 app1
 ```
-![Run](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/screenshots/run_container.png)
+![Run](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/run_container.png)
 
 ---
 
@@ -57,7 +57,7 @@ Use curl to check if the application is running:
 ```bash
 curl http://localhost:8080
 ```
-![Test](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/screenshots/run_container.png)
+![Test](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/run_container.png)
 
 ---
 
@@ -69,7 +69,7 @@ Stop and remove the running container:
 docker stop container1
 docker rm container1
 ```
-![Stop](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/screenshots/stop_rm.png)
+![Stop](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/stop_rm.png)
 
 ---
 
