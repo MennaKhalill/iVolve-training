@@ -50,15 +50,14 @@ docker container run -d --name container1 -p 8080:8080 app1
 
 ---
 
-## Step 5: Step 5: Test the Application
+## Step 5: Test the Application
 
 Use curl to check if the application is running:
 
 ```bash
 curl http://localhost:8080
 ```
-![Test](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/run_container.png)
-
+![Test](https://github.com/MennaKhalill/iVolve-training/blob/main/Docker/lab3/screenshots/curl.png)
 ---
 
 ## Step 6: Stop and Remove the Container
